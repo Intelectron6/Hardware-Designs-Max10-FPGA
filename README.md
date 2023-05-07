@@ -1,5 +1,5 @@
 # Hardware-Designs-Max10-FPGA
-Some basic digital hardware designs that are synthesized and implemented on Max10 FPGA using Intel Quartus Prime Lite (18.1) and ModelSim Altera. </br>
+Basic digital hardware designs that are synthesized and implemented on Max10 FPGA using Intel Quartus Prime Lite (18.1) and ModelSim Altera. </br>
 The designs are first verified traditionally using test-bench and tested using scan-chain (not always exhaustively). <br/>
 They are then wrapped using a standard interfacing system and interfaced with NIOS-II processor using Platform Designer (formerly Qsys). </br>
 Eclipse IDE is used to write C-codes that illustrate the utility of these hardware designs in practical applications. </br>
