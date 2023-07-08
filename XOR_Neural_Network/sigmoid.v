@@ -1,5 +1,5 @@
 module sigmoid (input signed [15:0] inp, 
-					 output reg [15:0] outp);
+		output reg [15:0] outp);
 					 
 	reg [15:0] rom [255:0];
 	
