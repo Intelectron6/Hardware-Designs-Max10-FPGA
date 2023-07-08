@@ -30,18 +30,18 @@ reg dummy;
 assign rst = ~rstn;
 
 Processing_System mps (clk, rst,           
-							  user_extra_inputs_export,  
-							  user_extra_outputs_export,
-							  user_input_0_export,       
-							  user_input_1_export,      
-							  user_output_export);
+					   user_extra_inputs_export,  
+					   user_extra_outputs_export,
+					   user_input_0_export,       
+					   user_input_1_export,      
+					   user_output_export);
 								  
 gf2_matrix_inverter gf2mi (clk, rst, 
-								   coproc_inp_valid,
-									coproc_input,
-									coproc_output,
-									coproc_ongoing,
-									coproc_outp_valid);
+						   coproc_inp_valid,
+						   coproc_input,
+						   coproc_output,
+						   coproc_ongoing,
+						   coproc_outp_valid);
 					  
 assign user_output_export = sig_user_output_export;  
 assign coproc_inp = coproc_inp_reg [15:0];
