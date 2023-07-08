@@ -68,9 +68,9 @@ begin
 	begin
 		state <= s0; 
 		coproc_inp_valid <= 0;
-      coproc_inp_reg <= 32'd0;
+      	coproc_inp_reg <= 32'd0;
 		coproc_outp_reg <= 32'd0;
-      coproc_command_reg <= 32'd0; 
+      	coproc_command_reg <= 32'd0; 
 		coproc_status_reg <= 32'd0;
 	end
 	else
