@@ -1,8 +1,8 @@
 module neuron_1 (input clk,
-					  input rst,
-					  input en,
-					  input [15:0] x1, 
-					  output reg [15:0] f);
+		 input rst,
+		 input en,
+		 input [15:0] x1, 
+		 output reg [15:0] f);
 
 	reg signed [15:0] xa;
 	wire signed [15:0] fa;
@@ -27,10 +27,10 @@ endmodule
 
 
 module neuron_2 (input clk,
-					  input rst,
-					  input en,
-					  input [15:0] x1, 
-					  output reg [15:0] f);
+		 input rst,
+		 input en,
+		 input [15:0] x1, 
+		 output reg [15:0] f);
 
 	reg signed [15:0] xa;
 	wire signed [15:0] fa;
@@ -55,11 +55,11 @@ endmodule
 
 
 module neuron_3 (input clk,
-					  input rst,
-					  input en,
-					  input [15:0] x1, 
-					  input [15:0] x2,
-					  output reg [15:0] f);
+		 input rst,
+		 input en,
+		 input [15:0] x1, 
+		 input [15:0] x2,
+		 output reg [15:0] f);
 
 	reg signed [15:0] xa;
 	wire signed [15:0] fa;
@@ -84,11 +84,11 @@ endmodule
 
 
 module neuron_4 (input clk,
-					  input rst,
-					  input en,
-					  input [15:0] x1, 
-					  input [15:0] x2,
-					  output reg [15:0] f);
+		 input rst,
+		 input en,
+		 input [15:0] x1, 
+		 input [15:0] x2,
+		 output reg [15:0] f);
 
 	reg signed [15:0] xa;
 	wire signed [15:0]	fa;
@@ -113,12 +113,12 @@ endmodule
 	   
 	   
 module xor_nn (input clk,
-					input rst,
-					input en,
-					input [15:0] x1,
-					input [15:0] x2,
-					output cl);
-			   
+	       input rst,
+	       input en,
+	       input [15:0] x1,
+	       input [15:0] x2,
+	       output cl);
+   
 	wire signed [15:0] f1, f2, f3, f4, f5, f6, f7;
 	
 	neuron_1 n1 (clk, rst, en, x1, f1);
