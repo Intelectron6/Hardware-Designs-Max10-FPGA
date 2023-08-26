@@ -5,8 +5,7 @@ They are then wrapped using a standard interfacing system and interfaced with NI
 Eclipse IDE is used to write C-codes that illustrate how these (and similar) hardware designs can be used in practical applications. </br>
 
 1) 4x4 Matrix Inversion over Galois Field 2
-2) 8-point Number Theoretic Transform over 16-bit Field
-3) XOR Neural Network using 16-bit Fixed Point Representation and LUT-based Sigmoid Function
-4) 4-tap Low Pass FIR Filter using 16-bit Fixed Point Representation
+2) XOR Neural Network using 16-bit Fixed Point Representation and LUT-based Sigmoid Function
+3) 4-tap Low Pass FIR Filter using 16-bit Fixed Point Representation
 
 Note: Max-10 FPGA and compatible USB power cable and USB-Blaster are necessary. Refer to Intel website for tutorials on how to use the tools and the devices. Similar steps can be followed for other Intel FPGAs as well.
